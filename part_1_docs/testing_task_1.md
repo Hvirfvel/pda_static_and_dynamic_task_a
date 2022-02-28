@@ -16,26 +16,25 @@ Only comment on errors that would stop the tests running.
 
 class CardGame:
 
-
   def check_for_ace(self, card):
-    if card.value = 1:
+    if card.value = 1: # '=' should be '=='
       return True
     else
       return False
    
 
-  dif highest_card(self, card1 card2):
+  dif highest_card(self, card1 card2): # to be recognised as a function it needs to start with 'def'
   if card1.value > card2.value:
-    return card
+    return card # the if statement needs to return 'card1'
   else:
     return card2
   
 
 
-def cards_total(self, cards):
-  total
+def cards_total(self, cards): # the function needs to be indented
+  total #total needs to get a value to be recognised as a variable
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total #return needs to be formatted
   
 ```
